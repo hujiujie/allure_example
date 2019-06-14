@@ -50,7 +50,7 @@ class TestLogin:
             time.sleep(random.randint(2, 4))
             name = str(int(str(int(time.time()))))
             #capturepic.capture_screen(name)
-            file = open(name + '.jpg', 'rb').read()
+            #file = open(name + '.jpg', 'rb').read()
             #allure.attach(name, file, allure.attach_type.PNG)
             #shutil.rmtree(name + '.jpg')
             user_name_text = ''
